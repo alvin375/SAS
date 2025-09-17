@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Penjualan Kripik</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #ff9800;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0 5px 0;
+      color: #333;
+    }
+    .card p {
+      margin: 0;
+      color: #777;
+    }
+    .wa-button {
+      display: block;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin: 15px auto;
+      width: 80%;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .wa-button:hover {
+      background: #1ebe57;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portofolio Penjualan Kripik</h1>
+    <p>Keripik Singkong | Keripik Pisang | Peyek | Kerupuk Udang</p>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300?text=Keripik+Singkong" alt="Keripik Singkong">
+      <h3>Keripik Singkong</h3>
+      <p>Rp 15.000 / Bungkus</p>
+      <a class="wa-button" href="https://wa.me/6285346127407?text=Halo%2C+saya+mau+pesan+Keripik+Singkong" target="_blank">Pesan via WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300?text=Keripik+Pisang" alt="Keripik Pisang">
+      <h3>Keripik Pisang</h3>
+      <p>Rp 18.000 / Bungkus</p>
+      <a class="wa-button" href="https://wa.me/6285346127407?text=Halo%2C+saya+mau+pesan+Keripik+Pisang" target="_blank">Pesan via WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300?text=Peyek" alt="Peyek">
+      <h3>Peyek</h3>
+      <p>Rp 12.000 / Bungkus</p>
+      <a class="wa-button" href="https://wa.me/6285346127407?text=Halo%2C+saya+mau+pesan+Peyek" target="_blank">Pesan via WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/400x300?text=Kerupuk+Udang" alt="Kerupuk Udang">
+      <h3>Kerupuk Udang</h3>
+      <p>Rp 20.000 / Bungkus</p>
+      <a class="wa-button" href="https://wa.me/6285346127407?text=Halo%2C+saya+mau+pesan+Kerupuk+Udang" target="_blank">Pesan via WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Hubungi kami di WhatsApp: <a href="https://wa.me/6285346127407" style="color:#25d366;">085346127407</a></p>
+    <p>&copy; 2025 UMKM Kripik</p>
+  </footer>
+
+</body>
+</html>
